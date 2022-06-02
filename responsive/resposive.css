@@ -50,7 +50,7 @@
           padding: 5px 0;
       }
       nav{
-           
+
       }
       nav ul{
            padding: 5px 0;
@@ -66,14 +66,19 @@
           font-size: 7px;
      }
 }
-@media all and (max-width: 380px) {}
+@media all and (max-width: 380px) {
+
+}
+
 /* --------------------header-section-end--------------------- */
 /* --------------------header-section-end--------------------- */
 /*  */
 /* ------------banner-section start--------------- */
 /* ------------banner-section start--------------- */
 @media all and (max-width: 1600px) {}
-@media all and (max-width: 1400px) {}
+@media all and (max-width: 1400px) {
+     .about-section{ padding-bottom: 0; }
+}
 @media all and (max-width: 1200px) {
      .banner-section{
           padding: 200px 0;
@@ -84,6 +89,21 @@
      .banner-section .container a{
           font-size: 16px;
      }
+     .banner-about-section{
+          flex-wrap: wrap;
+          justify-content: center;
+     }
+     .banner-content{
+          display: flex;
+          width: 100%;
+     }
+     .banner-content1{
+          padding: 10px;
+     }
+     .imformation{
+          padding: 90px 0;
+     }
+     
 }
 @media all and (max-width: 992px) {
      .banner-section{
@@ -94,6 +114,22 @@
      }
      .banner-section .container a{
           font-size: 14px;
+     }
+     .banner-content{
+          flex-wrap:wrap;
+     }
+     .banner-content2{
+          width: 50%;
+     }
+     .banner-content3{
+          width:100%;
+          text-align: center;
+     }
+     .about-section{ 
+          padding: 0; 
+     }
+     .imformation{
+          padding: 80px 0;
      }
 }
 @media all and (max-width: 768px) {
@@ -109,6 +145,17 @@
      .banner-section .container a{
           font-size: 12px;
      }
+     .items-1,.items-2,.items-3,.items-4{
+          flex-basis: 50%;
+          padding: 10px;
+     }
+     .service-item{
+          flex-wrap: wrap;
+     }
+     .about-section{ padding-bottom: 0; }
+     .imformation{
+          padding: 70px 0;
+     }
 }
 @media all and (max-width: 668px) {
      .banner-section{
@@ -122,6 +169,15 @@
      }
      .banner-section .container a{
           font-size: 10px;
+     }
+     .mail,.phone,.location{
+          width: 100%;
+     }
+     .contact-info{
+          flex-wrap:wrap;
+     }
+     .imformation{
+          padding: 60px 0;
      }
 }
 @media all and (max-width: 500px) {
@@ -138,6 +194,18 @@
      .banner-section .container a{
           font-size: 10px;
      }
+     .banner-content2{
+          width: 100%;
+     }
+     .banner-content3{
+          width:100%;
+          text-align: left;
+     }
+     .about-section{ padding: 20px 0;padding-bottom: 0px; }
+     .imformation{
+          padding: 50px 0;
+     }
+     
 }
 @media all and (max-width: 420px) {
      .banner-section{
@@ -149,6 +217,12 @@
      .banner-section .container p{
           font-size: 14px;
      }
+     .items-1,.items-2,.items-3,.items-4{
+          flex-basis: 100%;
+     }
+     .imformation{
+          padding: 40px 0;
+     }
 }
 @media all and (max-width: 380px) {
      .banner-section{
@@ -159,6 +233,19 @@
      }
      .banner-section .container p{
           font-size: 12px;
+     }
+     .banner-section b{
+          font-size: 20px;
+     }
+     .banner-section p{
+          font-size: 9px;
+     }
+     .banner-section a{
+          padding: 8px 16px;
+          border-radius: 11px;
+     }
+     .imformation{
+          padding: 30px 0;
      }
 }
 /* --------------banner-section-end------------ */
